@@ -1,0 +1,50 @@
+{
+  "name": "simplon-quizz",
+  "version": "1.0.0",
+  "description": "Quizz on tech subjects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./Front/src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/HelenMVA/quizz.git"
+  },
+  "keywords": [
+    "Tech",
+    "Quizz",
+    "Simplon"
+  ],
+  "author": "Kula Jega, Luq Alexandre, Moiseeva Elena, Cabanes Thibault",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/runtime": "^7.8.3",
+    "autodux": "^5.0.3",
+    "axios": "^0.19.2",
+    "nodemon": "^2.0.2",
+    "parcel-bundler": "^1.12.4",
+    "rea": "0.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
+    "react-logger": "^1.1.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "redux-logger": "^3.0.6"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/HelenMVA/quizz/issues"
+  },
+  "homepage": "https://gitlab.com/HelenMVA/quizz#readme"
+}

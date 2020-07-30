@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "name": "Book"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "publication": {
+      "type": "date"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Language": {
+      "type": "string"
+    },
+    "disponible": {
+      "type": "boolean"
+    },
+    "author": {
+      "model": "author",
+      "via": "books"
+    },
+    "types": {
+      "collection": "type",
+      "via": "books",
+      "dominant": true
+    },
+    "user_borrows_book": {
+      "via": "book",
+      "model": "user-borrows-books"
+    }
+  }
+}
